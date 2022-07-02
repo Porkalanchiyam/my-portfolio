@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .highlight__panel {
+    @apply hidden;
+  }
+  .prose img {
+    @apply mx-auto shadow-md rounded;
+  }
+  .prose figure,
+  .prose figcaption {
+    @apply text-center italic;
+    margin-top: -1rem;
+  }
+  .prose figure {
+    @apply my-6;
+  }
+  .prose figure br {
+    @apply hidden;
+  }
+
+  .navigation-underline {
+    @apply w-full border border-orange-400 bg-orange-400 dark:border-yellow-300 dark:bg-yellow-300;
+  }
+}
+
+@layer utilities {
+  .hide {
+    display: none;
+    visibility: hidden;
+  }
+
+  .show {
+    display: inline;
+    visibility: visible;
+  }
+}
