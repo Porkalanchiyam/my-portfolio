@@ -8,7 +8,27 @@ const config = {
   subtitle: "The timeline of my life.",
   timelineData: [
     {
-      year: `Dec 2020`,
+      year: `Oct 2022 - Present`,
+      icon: IoLogoJavascript,
+      data: {
+        title: (
+          <div className="text-md font-bold text-gray-500 lex dark:text-gray-300">
+            Worked at{" "}
+            <Link href="https://botvfx.com/">
+              <a className="text-orange-400 dark:text-yellow-300 italic">
+               Botvfx
+              </a>
+            </Link>{" "}
+            as Full-Stack Developer.
+          </div>
+        ),
+        description: `Joined Botvfx as a Full-Stack Developer.
+        Worked primarily on developing Business Management Platform.
+        Worked closely with the Senior Executives to design and develop the platform.`,
+      },
+    },
+    {
+      year: `Dec 2020 - Oct 2022`,
       icon: IoLogoJavascript,
       data: {
         title: (
